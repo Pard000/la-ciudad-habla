@@ -13,7 +13,7 @@ Prototipo público de la investigación fotográfica documental de Alexander Par
 - `images/`: carpeta prevista para las 25 fotografías propias.
 
 ## Añadir fotografías
-Las 25 fichas ya están conectadas a `images/01.webp` hasta `images/25.webp`. Solo hay que subir esos 25 archivos a la carpeta `images/` del repositorio; no es necesario editar ningún código. Los originales se conservan aparte. Los archivos optimizados pesan aproximadamente 8,4 MB en conjunto y preservan la composición.
+Las 25 fichas están conectadas a `images/la-ciudad-habla-imagenes-web/01.webp` hasta `images/la-ciudad-habla-imagenes-web/25.webp`, porque las imágenes se subieron dentro de esa subcarpeta. No es necesario volver a subirlas ni editar código. Los originales se conservan aparte. Los archivos optimizados pesan aproximadamente 8,4 MB en conjunto y preservan la composición.
 
 ## Enlaces históricos
 Investigar Street View para las 25 ubicaciones; se han documentado seis referencias de 2014–2015. Los campos `historicalUrl` permanecerán vacíos hasta verificar enlaces y derechos. Los vínculos de búsqueda por dirección NO garantizan abrir el año histórico seleccionado. Evitar reutilizar capturas de Street View fuera de los métodos autorizados por Google.
