@@ -13,5 +13,5 @@ const pieces = [
 ['Hamburguesa',2]
 ].map(([title,route,address='',historicalDate='',observation=''],i)=>({
  id:i+1,title,route,address,historicalDate,observation,
- image:`images/${String(i+1).padStart(2,'0')}.webp`,historicalUrl:'',date:'2026',transcription:'',notes:''
+ image:`images/la-ciudad-habla-imagenes-web/${String(i+1).padStart(2,'0')}.webp`,historicalUrl:'',date:'2026',transcription:'',notes:''
 }));
