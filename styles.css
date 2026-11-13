@@ -12,3 +12,13 @@
 .trace-figure img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto}
 .trace-figure figcaption{font:11px 'IBM Plex Sans',Arial,sans-serif;line-height:1.5;padding:10px 12px;color:#5b625b}
 @media(max-width:580px){.route-art{padding:15px}.trace-gallery{gap:14px}.trace-meta{font-size:9px}.trace-figure figcaption{font-size:10px}}
+
+/* Mapa auténtico sobre OpenStreetMap; calibración del trazo en revisión. */
+.geo-map-panel{background:#d7dbd6;gap:13px;min-height:660px;justify-content:flex-start}
+.geo-map-toolbar{display:flex;flex-wrap:wrap;gap:6px}
+.map-toggle{padding:9px 12px;background:transparent;color:var(--ink);border:1px solid #a7ada7;font:11px 'IBM Plex Mono',monospace;cursor:pointer}
+.map-toggle.active,.map-toggle:hover{background:var(--ink);color:var(--bone)}
+.geo-route-map{width:100%;min-height:510px;flex:1;border:1px solid #a7ada7;background:#dce1dd;z-index:0;font:12px 'IBM Plex Sans',Arial,sans-serif}
+.geo-route-map .leaflet-control-attribution{font-size:10px}
+.geo-map-panel .route-art-bottom{max-width:100%;line-height:1.6;color:#404a45}
+@media(max-width:580px){.geo-map-panel{min-height:530px;padding:14px}.geo-route-map{min-height:380px}.map-toggle{padding:8px 9px;font-size:10px}}
