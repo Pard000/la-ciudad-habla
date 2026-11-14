@@ -9,6 +9,8 @@
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
     maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'
   }).addTo(map);
+  // Recorrido 02: punto inicial corregido en la intersección señalada en azul en el croquis actualizado.
+  // La imagen del trazado no se ha recalibrado por GPS: sus coordenadas siguen siendo provisionales.
   const configs=[
     {id:1,file:'routes/trazo-real-1.svg',width:1870,height:1201,
      anchor:{x:862,y:265,lat:-17.78329,lon:-63.18212},latPixel:0.00001105,lonPixel:0.0000108,
@@ -16,19 +18,19 @@
      color:'#bf803b',label:'Recorrido 01'},
     {id:2,file:'routes/trazo-real-2.svg',width:2048,height:953,
      anchor:{x:676,y:712,lat:-17.78329,lon:-63.18212},latPixel:0.00000708,lonPixel:0.00000756,
-     extent:{left:265,top:375,right:1888,bottom:680},start:[1881,525],end:[350,388],
-     color:'#307f7a',label:'Recorrido 02'}
+     extent:{left:265,top:375,right:1888,bottom:680},start:[732,630],end:[350,388],
+     color:'#d52b38',label:'Recorrido 02'}
   ];
   function point(c,x,y){return L.latLng(c.anchor.lat-(y-c.anchor.y)*c.latPixel,c.anchor.lon+(x-c.anchor.x)*c.lonPixel);}
   const layers={};const allBounds=L.latLngBounds([]);
   configs.forEach(c=>{
     const bounds=L.latLngBounds(point(c,0,c.height),point(c,c.width,0));
-    const img=L.imageOverlay(c.file,bounds,{opacity:0.95,interactive:false});
+    const img=L.imageOverlay(c.file,bounds,{opacity:1,interactive:false,className:'route-overlay'});
     const group=L.layerGroup([img]);
     const endMarkers=[['INICIO',c.start],['FINAL',c.end]];
     endMarkers.forEach(([name,p])=>{
-      L.circleMarker(point(c,p[0],p[1]),{radius:6,weight:2,color:'#171918',fillColor:c.color,fillOpacity:1})
-       .bindTooltip(c.label+' · '+name+' (referencia aproximada)',{direction:'top'})
+      L.circleMarker(point(c,p[0],p[1]),{radius:8,weight:3,color:'#fffdf7',fillColor:'#171918',fillOpacity:1})
+       .bindTooltip(c.label+' · '+name+' (referencia aproximada)',{direction:'top',permanent:true,offset:[0,-8],className:'route-end-label'})
        .addTo(group);
     });
     layers[c.id]=group;
