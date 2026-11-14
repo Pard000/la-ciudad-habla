@@ -1,5 +1,6 @@
 // Orden oficial de visita facilitado por el autor. `originalIndex` conserva la correspondencia con el archivo fotográfico ya subido.
-// Los enlaces de Google Maps identifican ubicaciones; no representan por sí solos el trazado exacto entre ellas.
+// Los enlaces compartidos por el autor apuntan a Street View, con intención de consulta histórica. No suponen coordenadas verificadas ni garantizan que Google mantenga una fecha concreta al abrirlos.
+// Conservamos mapsUrl por compatibilidad y historicalUrl como campo documental; futuras coordenadas geográficas se guardarán por separado.
 const pieces = [
   {
     "id": 1,
@@ -11,7 +12,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/01.webp",
     "mapsUrl": "https://maps.app.goo.gl/ctJX3e4dDhSStMsP7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/ctJX3e4dDhSStMsP7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -26,7 +27,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/02.webp",
     "mapsUrl": "https://maps.app.goo.gl/ikVArKC3m9xYAJWJA",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/ikVArKC3m9xYAJWJA",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -41,7 +42,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/03.webp",
     "mapsUrl": "https://maps.app.goo.gl/ziqve2P9ar3FN28q7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/ziqve2P9ar3FN28q7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -56,7 +57,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/04.webp",
     "mapsUrl": "https://maps.app.goo.gl/gT9oLxrFnKkNyqsHA",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/gT9oLxrFnKkNyqsHA",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -71,7 +72,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/05.webp",
     "mapsUrl": "https://maps.app.goo.gl/JMYv8sNpWefMpkq49",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/JMYv8sNpWefMpkq49",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -86,7 +87,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/06.webp",
     "mapsUrl": "https://maps.app.goo.gl/Em3iovTMUueYG5pu6",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/Em3iovTMUueYG5pu6",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -101,7 +102,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/07.webp",
     "mapsUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -116,7 +117,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/08.webp",
     "mapsUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -131,7 +132,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/25.webp",
     "mapsUrl": "https://maps.app.goo.gl/PBTfGWMBWpBNZQQa6",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/PBTfGWMBWpBNZQQa6",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -146,7 +147,7 @@ const pieces = [
     "observation": "La rotulación amarilla actual no aparece en el registro histórico.",
     "image": "images/la-ciudad-habla-imagenes-web/09.webp",
     "mapsUrl": "https://maps.app.goo.gl/uXqcAw5xaCgicss5A",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/uXqcAw5xaCgicss5A",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -161,7 +162,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/10.webp",
     "mapsUrl": "https://maps.app.goo.gl/As6KBCxuam8iJ7mz7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/As6KBCxuam8iJ7mz7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -176,7 +177,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/11.webp",
     "mapsUrl": "https://maps.app.goo.gl/tPQMbYJpXCbfwpAo9",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/tPQMbYJpXCbfwpAo9",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -191,7 +192,7 @@ const pieces = [
     "observation": "Se observan cambios en la comunicación comercial de este sector; la correspondencia entre locales requiere verificación.",
     "image": "images/la-ciudad-habla-imagenes-web/12.webp",
     "mapsUrl": "https://maps.app.goo.gl/ALq7cg7qurUkaeHt6",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/ALq7cg7qurUkaeHt6",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -206,7 +207,7 @@ const pieces = [
     "observation": "La inscripción roja actual no aparece en el registro histórico.",
     "image": "images/la-ciudad-habla-imagenes-web/13.webp",
     "mapsUrl": "https://maps.app.goo.gl/7NJTF1jQtDCfp6958",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/7NJTF1jQtDCfp6958",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -221,7 +222,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/14.webp",
     "mapsUrl": "https://maps.app.goo.gl/JCX8XTTpbDKbuv4k7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/JCX8XTTpbDKbuv4k7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -236,7 +237,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/15.webp",
     "mapsUrl": "https://maps.app.goo.gl/mC7RqBYmK2HyCuTA9",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/mC7RqBYmK2HyCuTA9",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -251,7 +252,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/16.webp",
     "mapsUrl": "https://maps.app.goo.gl/FP2F59t6ESrRnsfK7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/FP2F59t6ESrRnsfK7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -266,7 +267,7 @@ const pieces = [
     "observation": "La función comunicativa jurídica es reconocible en ambos registros.",
     "image": "images/la-ciudad-habla-imagenes-web/17.webp",
     "mapsUrl": "https://maps.app.goo.gl/NNNcu8p1y5znbznc7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/NNNcu8p1y5znbznc7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -281,7 +282,7 @@ const pieces = [
     "observation": "La inscripción comercial permanece; cambian algunos elementos de la fachada.",
     "image": "images/la-ciudad-habla-imagenes-web/18.webp",
     "mapsUrl": "https://maps.app.goo.gl/MLXxvtisqeAjamoy7",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/MLXxvtisqeAjamoy7",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -296,7 +297,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/19.webp",
     "mapsUrl": "https://maps.app.goo.gl/UEcaYdRFSusjN5jw9",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/UEcaYdRFSusjN5jw9",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -311,7 +312,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/20.webp",
     "mapsUrl": "https://maps.app.goo.gl/8QZp1tXufZstyPvS9",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/8QZp1tXufZstyPvS9",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -326,7 +327,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/21.webp",
     "mapsUrl": "https://maps.app.goo.gl/uMpiFh7wKBy45TxX6",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/uMpiFh7wKBy45TxX6",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -341,7 +342,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/22.webp",
     "mapsUrl": "https://maps.app.goo.gl/WiJQNVNqRWaKCCDm8",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/WiJQNVNqRWaKCCDm8",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -356,7 +357,7 @@ const pieces = [
     "observation": "",
     "image": "images/la-ciudad-habla-imagenes-web/23.webp",
     "mapsUrl": "https://maps.app.goo.gl/3RtisEhN4X4YvLGm8",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/3RtisEhN4X4YvLGm8",
     "date": "2026",
     "transcription": "",
     "notes": ""
@@ -371,7 +372,7 @@ const pieces = [
     "observation": "El nombre y los elementos decorativos aparecen en ambos registros.",
     "image": "images/la-ciudad-habla-imagenes-web/24.webp",
     "mapsUrl": "https://maps.app.goo.gl/B3kUTaqkcW6RNsT56",
-    "historicalUrl": "",
+    "historicalUrl": "https://maps.app.goo.gl/B3kUTaqkcW6RNsT56",
     "date": "2026",
     "transcription": "",
     "notes": ""
