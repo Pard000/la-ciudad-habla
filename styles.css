@@ -22,3 +22,19 @@
 .geo-route-map .leaflet-control-attribution{font-size:10px}
 .geo-map-panel .route-art-bottom{max-width:100%;line-height:1.6;color:#404a45}
 @media(max-width:580px){.geo-map-panel{min-height:530px;padding:14px}.geo-route-map{min-height:380px}.map-toggle{padding:8px 9px;font-size:10px}}
+
+/* Contraste del trazado geográfico; los mapas siguen siendo provisionales. */
+.geo-route-map .route-overlay{
+  filter:drop-shadow(0 0 2px rgba(255,255,255,.98)) drop-shadow(0 1px 3px rgba(23,25,24,.35));
+}
+.geo-route-map .route-end-label{
+  border:1px solid rgba(23,25,24,.55);
+  border-radius:2px;
+  background:#171918;
+  color:#fffdf7;
+  font:600 10px 'IBM Plex Mono',monospace;
+  letter-spacing:.02em;
+  box-shadow:0 1px 4px rgba(0,0,0,.24);
+  padding:3px 6px;
+}
+.geo-route-map .route-end-label::before{border-top-color:#171918}
