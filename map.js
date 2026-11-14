@@ -14,7 +14,7 @@
   const configs=[
     {id:1,file:'routes/trazo-real-1.svg',width:1870,height:1201,
      anchor:{x:862,y:265,lat:-17.78329,lon:-63.18212},latPixel:0.00001105,lonPixel:0.0000108,
-     extent:{left:262,top:475,right:854,bottom:788},start:[842,615],end:[298,783],
+     extent:{left:262,top:475,right:854,bottom:788},start:[774,511],end:[298,783],
      color:'#bf803b',label:'Recorrido 01'},
     {id:2,file:'routes/trazo-real-2.svg',width:2048,height:953,
      anchor:{x:676,y:712,lat:-17.78329,lon:-63.18212},latPixel:0.00000708,lonPixel:0.00000756,
