@@ -1,7 +1,10 @@
-// Orden oficial de visita del autor. `originalIndex` conserva correspondencia con archivos originales.
-// `lat`/`lng` y `locationUrl`: ubicación contemporánea aportada por el autor (noviembre de 2026).
-// `historicalUrl` y `mapsUrl`: enlaces históricos de Street View, separados y preservados.
-// Dos fotos pueden compartir coordenadas y se presentan en un mismo marcador, sin desplazarlas artificialmente.
+// Orden oficial de las 25 fotografías; `originalIndex` mantiene la correspondencia con el archivo original.
+// Comparaciones editoriales redactadas a partir de la revisión de Street View realizada por el autor.
+// Fechas de referencia: diciembre de 2014 (1–8, 15–25) y enero de 2015 (9–14).
+// Tres enlaces históricos comprobados en apertura: fichas 10, 14 y 25; los demás conservan
+// fecha aportada por el autor, sin atribuirles verificación independiente de apertura.
+// `locationUrl` y `lat`/`lng` son ubicación actual; `historicalUrl` y `mapsUrl` preservan el archivo.
+// La posición de los trazos y los marcadores del mapa no se modifica aquí.
 const pieces = [
   {
     "id": 1,
@@ -9,8 +12,8 @@ const pieces = [
     "title": "Casa en venta",
     "route": 1,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014, el sector donde hoy se lee «Casa en venta» aparece sin esa inscripción. En la parte superior se distingue, en cambio, el mensaje «Multiservicios», pintado en rojo. La comparación muestra una sustitución de los mensajes visibles en la fachada.",
     "image": "images/la-ciudad-habla-imagenes-web/01.webp",
     "mapsUrl": "https://maps.app.goo.gl/ctJX3e4dDhSStMsP7",
     "historicalUrl": "https://maps.app.goo.gl/ctJX3e4dDhSStMsP7",
@@ -19,7 +22,12 @@ const pieces = [
     "notes": "",
     "lat": -17.787565,
     "lng": -63.185102,
-    "locationUrl": "https://maps.app.goo.gl/3kjg12775X42Wicr5"
+    "locationUrl": "https://maps.app.goo.gl/3kjg12775X42Wicr5",
+    "historicalFocus": "Inscripción ausente en 2014",
+    "historicalComparison": "En diciembre de 2014, el sector donde hoy se lee «Casa en venta» aparece sin esa inscripción. En la parte superior se distingue, en cambio, el mensaje «Multiservicios», pintado en rojo. La comparación muestra una sustitución de los mensajes visibles en la fachada.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 2,
@@ -27,8 +35,8 @@ const pieces = [
     "title": "Importadora Renata",
     "route": 1,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "La fachada mostraba «Importadora Elida» en diciembre de 2014, en el mismo espacio donde la fotografía de 2026 registra «Importadora Renata». Persiste el recurso de utilizar la fachada como soporte de identificación comercial, aunque cambia el nombre anunciado.",
     "image": "images/la-ciudad-habla-imagenes-web/02.webp",
     "mapsUrl": "https://maps.app.goo.gl/ikVArKC3m9xYAJWJA",
     "historicalUrl": "https://maps.app.goo.gl/ikVArKC3m9xYAJWJA",
@@ -37,7 +45,12 @@ const pieces = [
     "notes": "",
     "lat": -17.787468,
     "lng": -63.186086,
-    "locationUrl": "https://maps.app.goo.gl/GsPPvetkv6NoZVPy9"
+    "locationUrl": "https://maps.app.goo.gl/GsPPvetkv6NoZVPy9",
+    "historicalFocus": "Cambio de nombre comercial",
+    "historicalComparison": "La fachada mostraba «Importadora Elida» en diciembre de 2014, en el mismo espacio donde la fotografía de 2026 registra «Importadora Renata». Persiste el recurso de utilizar la fachada como soporte de identificación comercial, aunque cambia el nombre anunciado.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 3,
@@ -45,8 +58,8 @@ const pieces = [
     "title": "Foto en 1 minuto",
     "route": 1,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "El local mantiene una apariencia general semejante a la de diciembre de 2014, pero en 2026 se aprecia mayor desgaste y suciedad. La inscripción vertical «Foto en un minuto», visible en el registro actual, no se distingue en el histórico; el diferente ángulo de captura limita la comparación de ese detalle.",
     "image": "images/la-ciudad-habla-imagenes-web/03.webp",
     "mapsUrl": "https://maps.app.goo.gl/ziqve2P9ar3FN28q7",
     "historicalUrl": "https://maps.app.goo.gl/ziqve2P9ar3FN28q7",
@@ -55,7 +68,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7878,
     "lng": -63.1866,
-    "locationUrl": "https://maps.app.goo.gl/ZDGSjW6CRGtiiZjW9"
+    "locationUrl": "https://maps.app.goo.gl/ZDGSjW6CRGtiiZjW9",
+    "historicalFocus": "Incorporación y desgaste",
+    "historicalComparison": "El local mantiene una apariencia general semejante a la de diciembre de 2014, pero en 2026 se aprecia mayor desgaste y suciedad. La inscripción vertical «Foto en un minuto», visible en el registro actual, no se distingue en el histórico; el diferente ángulo de captura limita la comparación de ese detalle.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 4,
@@ -63,8 +81,8 @@ const pieces = [
     "title": "Casa Martínez",
     "route": 1,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "La fachada de Casa Martínez conserva gran parte de su apariencia respecto de diciembre de 2014. La comparación sugiere que se retiró una sección de la cubierta superior, dejando mayor altura visible del frente. También se observa una actualización del número telefónico de contacto.",
     "image": "images/la-ciudad-habla-imagenes-web/04.webp",
     "mapsUrl": "https://maps.app.goo.gl/gT9oLxrFnKkNyqsHA",
     "historicalUrl": "https://maps.app.goo.gl/gT9oLxrFnKkNyqsHA",
@@ -73,7 +91,12 @@ const pieces = [
     "notes": "",
     "lat": -17.786571,
     "lng": -63.187065,
-    "locationUrl": "https://maps.app.goo.gl/qYv36fhV3KaxiEMG6"
+    "locationUrl": "https://maps.app.goo.gl/qYv36fhV3KaxiEMG6",
+    "historicalFocus": "Modificación de fachada",
+    "historicalComparison": "La fachada de Casa Martínez conserva gran parte de su apariencia respecto de diciembre de 2014. La comparación sugiere que se retiró una sección de la cubierta superior, dejando mayor altura visible del frente. También se observa una actualización del número telefónico de contacto.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 5,
@@ -81,8 +104,8 @@ const pieces = [
     "title": "Aviso judicial",
     "route": 1,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014, la superficie que hoy contiene el aviso judicial estaba en blanco. El establecimiento contiguo que actualmente funciona como negocio de tatuajes tampoco presentaba esa actividad: se observa otro comercio en el archivo.",
     "image": "images/la-ciudad-habla-imagenes-web/05.webp",
     "mapsUrl": "https://maps.app.goo.gl/JMYv8sNpWefMpkq49",
     "historicalUrl": "https://maps.app.goo.gl/JMYv8sNpWefMpkq49",
@@ -91,7 +114,12 @@ const pieces = [
     "notes": "",
     "lat": -17.786011,
     "lng": -63.184051,
-    "locationUrl": "https://maps.app.goo.gl/XjBDpnoTscG6nDuy8"
+    "locationUrl": "https://maps.app.goo.gl/XjBDpnoTscG6nDuy8",
+    "historicalFocus": "Aparición de una inscripción",
+    "historicalComparison": "En diciembre de 2014, la superficie que hoy contiene el aviso judicial estaba en blanco. El establecimiento contiguo que actualmente funciona como negocio de tatuajes tampoco presentaba esa actividad: se observa otro comercio en el archivo.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 6,
@@ -99,8 +127,8 @@ const pieces = [
     "title": "Parqueo público",
     "route": 1,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En el registro de diciembre de 2014, la rotulación del parqueo se ve más reciente y la fachada y sus alrededores aparecen mejor conservados. En 2026 hay grafitis, suciedad y desgaste visibles. Al fondo también se aprecia en 2014 un mensaje rojo, aparentemente de venta, sobre una pared blanca que ya no se distingue en la fotografía actual.",
     "image": "images/la-ciudad-habla-imagenes-web/06.webp",
     "mapsUrl": "https://maps.app.goo.gl/Em3iovTMUueYG5pu6",
     "historicalUrl": "https://maps.app.goo.gl/Em3iovTMUueYG5pu6",
@@ -109,7 +137,12 @@ const pieces = [
     "notes": "",
     "lat": -17.785896,
     "lng": -63.183078,
-    "locationUrl": "https://maps.app.goo.gl/pSC9GULGwNYrD59q7"
+    "locationUrl": "https://maps.app.goo.gl/pSC9GULGwNYrD59q7",
+    "historicalFocus": "Desgaste y mensajes desaparecidos",
+    "historicalComparison": "En el registro de diciembre de 2014, la rotulación del parqueo se ve más reciente y la fachada y sus alrededores aparecen mejor conservados. En 2026 hay grafitis, suciedad y desgaste visibles. Al fondo también se aprecia en 2014 un mensaje rojo, aparentemente de venta, sobre una pared blanca que ya no se distingue en la fotografía actual.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 7,
@@ -117,8 +150,8 @@ const pieces = [
     "title": "Señales de parqueo",
     "route": 1,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "La señal «Parqueo público» fotografiada en 2026 no aparece en el registro de diciembre de 2014. La comparación permite constatar su ausencia en esa imagen anterior, pero no precisar cuándo fue incorporada.",
     "image": "images/la-ciudad-habla-imagenes-web/07.webp",
     "mapsUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
     "historicalUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
@@ -127,7 +160,12 @@ const pieces = [
     "notes": "",
     "lat": -17.787329,
     "lng": -63.184094,
-    "locationUrl": "https://maps.app.goo.gl/zYPRGYQi6qfHvCxt7"
+    "locationUrl": "https://maps.app.goo.gl/zYPRGYQi6qfHvCxt7",
+    "historicalFocus": "Inscripción ausente en 2014",
+    "historicalComparison": "La señal «Parqueo público» fotografiada en 2026 no aparece en el registro de diciembre de 2014. La comparación permite constatar su ausencia en esa imagen anterior, pero no precisar cuándo fue incorporada.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 8,
@@ -135,8 +173,8 @@ const pieces = [
     "title": "Pan casero",
     "route": 1,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014 funcionaba en este espacio una tienda de ropa deportiva, por lo que el letrero actual de «Pan casero» no estaba presente. La fachada documenta un cambio en la actividad anunciada y en el mensaje dirigido a quienes transitan por la calle.",
     "image": "images/la-ciudad-habla-imagenes-web/08.webp",
     "mapsUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
     "historicalUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
@@ -145,7 +183,12 @@ const pieces = [
     "notes": "",
     "lat": -17.787343,
     "lng": -63.184222,
-    "locationUrl": "https://maps.app.goo.gl/xNBo8ET8bKgpuj9e6"
+    "locationUrl": "https://maps.app.goo.gl/xNBo8ET8bKgpuj9e6",
+    "historicalFocus": "Cambio de actividad comercial",
+    "historicalComparison": "En diciembre de 2014 funcionaba en este espacio una tienda de ropa deportiva, por lo que el letrero actual de «Pan casero» no estaba presente. La fachada documenta un cambio en la actividad anunciada y en el mensaje dirigido a quienes transitan por la calle.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 9,
@@ -153,8 +196,8 @@ const pieces = [
     "title": "Hamburguesas",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Enero de 2015",
+    "observation": "El letrero de hamburguesas registrado en 2026 no se encuentra en la vista de enero de 2015. En ese momento, el espacio donde hoy se ubica Kilométrico Hot Dog correspondía a una galería; el anuncio actual responde a una actividad comercial distinta.",
     "image": "images/la-ciudad-habla-imagenes-web/25.webp",
     "mapsUrl": "https://maps.app.goo.gl/PBTfGWMBWpBNZQQa6",
     "historicalUrl": "https://maps.app.goo.gl/PBTfGWMBWpBNZQQa6",
@@ -163,7 +206,12 @@ const pieces = [
     "notes": "",
     "lat": -17.781744,
     "lng": -63.182052,
-    "locationUrl": "https://maps.app.goo.gl/h5CxABrwyDJKr5Xp6"
+    "locationUrl": "https://maps.app.goo.gl/h5CxABrwyDJKr5Xp6",
+    "historicalFocus": "Cambio de actividad comercial",
+    "historicalComparison": "El letrero de hamburguesas registrado en 2026 no se encuentra en la vista de enero de 2015. En ese momento, el espacio donde hoy se ubica Kilométrico Hot Dog correspondía a una galería; el anuncio actual responde a una actividad comercial distinta.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 10,
@@ -172,7 +220,7 @@ const pieces = [
     "route": 2,
     "address": "15 Arenales",
     "historicalDate": "Enero de 2015",
-    "observation": "La rotulación amarilla actual no aparece en el registro histórico.",
+    "observation": "En enero de 2015, el frente donde hoy se anuncia Parqueo Richard aparecía completamente blanco y sin señales visibles de esa identificación. Esto no permite determinar por sí solo si ya se utilizaba como estacionamiento. El local contiguo, actualmente identificado como Burtown, tampoco mostraba entonces su fachada e identidad visual actuales.",
     "image": "images/la-ciudad-habla-imagenes-web/09.webp",
     "mapsUrl": "https://maps.app.goo.gl/uXqcAw5xaCgicss5A",
     "historicalUrl": "https://maps.app.goo.gl/uXqcAw5xaCgicss5A",
@@ -183,9 +231,10 @@ const pieces = [
     "lng": -63.181395,
     "locationUrl": "https://maps.app.goo.gl/sdWgAwrMzvdFKDFH6",
     "historicalLinkStatus": "verified-by-author",
-    "historicalPilot": true,
-    "historicalComparison": "En el registro de enero de 2015 no se identifica la rotulación amarilla visible en la fotografía de 2026. La comparación documenta una diferencia entre dos momentos, sin establecer cuándo se incorporó el mensaje.",
-    "historicalComparisonStatus": "provisional-awaiting-visual-review"
+    "historicalComparison": "En enero de 2015, el frente donde hoy se anuncia Parqueo Richard aparecía completamente blanco y sin señales visibles de esa identificación. Esto no permite determinar por sí solo si ya se utilizaba como estacionamiento. El local contiguo, actualmente identificado como Burtown, tampoco mostraba entonces su fachada e identidad visual actuales.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalFocus": "Nueva identidad visible",
+    "historicalDateSource": "author-street-view-observation"
   },
   {
     "id": 11,
@@ -193,8 +242,8 @@ const pieces = [
     "title": "Parqueo público",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Enero de 2015",
+    "observation": "En enero de 2015 ya se anunciaba aquí un parqueo público, pero bajo el nombre «Parqueo Aguacate», con una fachada blanca y verde en lugar de la combinación actual de negro y amarillo. En el portón aparecía además un aviso de alquiler para carnavaleros, que sugiere un uso temporal del espacio durante el carnaval.",
     "image": "images/la-ciudad-habla-imagenes-web/10.webp",
     "mapsUrl": "https://maps.app.goo.gl/As6KBCxuam8iJ7mz7",
     "historicalUrl": "https://maps.app.goo.gl/As6KBCxuam8iJ7mz7",
@@ -203,7 +252,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7816136,
     "lng": -63.1801213,
-    "locationUrl": "https://maps.app.goo.gl/WaY4tDqqT3jESrGj9?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/WaY4tDqqT3jESrGj9?g_st=ic",
+    "historicalFocus": "Cambio de nombre y color",
+    "historicalComparison": "En enero de 2015 ya se anunciaba aquí un parqueo público, pero bajo el nombre «Parqueo Aguacate», con una fachada blanca y verde en lugar de la combinación actual de negro y amarillo. En el portón aparecía además un aviso de alquiler para carnavaleros, que sugiere un uso temporal del espacio durante el carnaval.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 12,
@@ -211,8 +265,8 @@ const pieces = [
     "title": "Librería La Solución",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Enero de 2015",
+    "observation": "Librería La Solución ya utilizaba en enero de 2015 una inscripción sobre la fachada para anunciarse. El rótulo combinaba entonces café y blanco, mientras que en 2026 predomina el blanco y negro. El entorno de la puerta también cambió: antes tenía un acabado de tono ladrillo y hoy aparece blanco.",
     "image": "images/la-ciudad-habla-imagenes-web/11.webp",
     "mapsUrl": "https://maps.app.goo.gl/tPQMbYJpXCbfwpAo9",
     "historicalUrl": "https://maps.app.goo.gl/tPQMbYJpXCbfwpAo9",
@@ -221,7 +275,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7814923,
     "lng": -63.1788154,
-    "locationUrl": "https://maps.app.goo.gl/t2sP2wpzeafJmZHA6?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/t2sP2wpzeafJmZHA6?g_st=ic",
+    "historicalFocus": "Continuidad con cambios cromáticos",
+    "historicalComparison": "Librería La Solución ya utilizaba en enero de 2015 una inscripción sobre la fachada para anunciarse. El rótulo combinaba entonces café y blanco, mientras que en 2026 predomina el blanco y negro. El entorno de la puerta también cambió: antes tenía un acabado de tono ladrillo y hoy aparece blanco.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 13,
@@ -230,7 +289,7 @@ const pieces = [
     "route": 2,
     "address": "368 calle Arenales",
     "historicalDate": "Enero de 2015",
-    "observation": "Se observan cambios en la comunicación comercial de este sector; la correspondencia entre locales requiere verificación.",
+    "observation": "En enero de 2015 este local funcionaba como óptica y comunicaba su actividad mediante un letrero colocado sobre la acera. En 2026 aparece un servicio técnico de computadoras con información pintada directamente en la pared: cambian tanto el negocio como el soporte del mensaje.",
     "image": "images/la-ciudad-habla-imagenes-web/12.webp",
     "mapsUrl": "https://maps.app.goo.gl/ALq7cg7qurUkaeHt6",
     "historicalUrl": "https://maps.app.goo.gl/ALq7cg7qurUkaeHt6",
@@ -239,7 +298,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7814265,
     "lng": -63.1778753,
-    "locationUrl": "https://maps.app.goo.gl/bqpAQrKitNjHNctNA?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/bqpAQrKitNjHNctNA?g_st=ic",
+    "historicalFocus": "Sustitución de negocio y soporte",
+    "historicalComparison": "En enero de 2015 este local funcionaba como óptica y comunicaba su actividad mediante un letrero colocado sobre la acera. En 2026 aparece un servicio técnico de computadoras con información pintada directamente en la pared: cambian tanto el negocio como el soporte del mensaje.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 14,
@@ -248,7 +312,7 @@ const pieces = [
     "route": 2,
     "address": "421 calle Arenales",
     "historicalDate": "Enero de 2015",
-    "observation": "La inscripción roja actual no aparece en el registro histórico.",
+    "observation": "En enero de 2015, Creando Sonrisas ya existía y tenía la inscripción visible en la fotografía de 2026. La fachada histórica incorporaba además pintura blanca y celeste, dibujos de un diente y una figura que parece un corazón, así como un aviso adicional de «Dentista» sobre un pilar. Estos elementos complementarios ya no se observan del mismo modo en el registro actual.",
     "image": "images/la-ciudad-habla-imagenes-web/13.webp",
     "mapsUrl": "https://maps.app.goo.gl/7NJTF1jQtDCfp6958",
     "historicalUrl": "https://maps.app.goo.gl/7NJTF1jQtDCfp6958",
@@ -259,9 +323,10 @@ const pieces = [
     "lng": -63.1771887,
     "locationUrl": "https://maps.app.goo.gl/6h9rspApQAnygmsy9?g_st=ic",
     "historicalLinkStatus": "verified-by-author",
-    "historicalPilot": true,
-    "historicalComparison": "La inscripción roja fotografiada en 2026 no se identifica en el registro de enero de 2015. No es posible determinar a partir de estas dos imágenes la fecha exacta de su aparición.",
-    "historicalComparisonStatus": "provisional-awaiting-visual-review"
+    "historicalComparison": "En enero de 2015, Creando Sonrisas ya existía y tenía la inscripción visible en la fotografía de 2026. La fachada histórica incorporaba además pintura blanca y celeste, dibujos de un diente y una figura que parece un corazón, así como un aviso adicional de «Dentista» sobre un pilar. Estos elementos complementarios ya no se observan del mismo modo en el registro actual.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalFocus": "Continuidad y simplificación visual",
+    "historicalDateSource": "author-street-view-observation"
   },
   {
     "id": 15,
@@ -269,8 +334,8 @@ const pieces = [
     "title": "Inscripciones antiguas y desgastadas",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014, la inscripción vinculada a la compra de papel y materiales similares todavía era legible. En la parte superior aparecían «Kimberly» y un logotipo; en la imagen actual, muy desgastada, se alcanza a interpretar «Reciclemos». La diferencia indica que hubo cambios de rotulación además del deterioro, aunque la lectura exacta del texto actual es incierta.",
     "image": "images/la-ciudad-habla-imagenes-web/14.webp",
     "mapsUrl": "https://maps.app.goo.gl/JCX8XTTpbDKbuv4k7",
     "historicalUrl": "https://maps.app.goo.gl/JCX8XTTpbDKbuv4k7",
@@ -279,7 +344,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7809183,
     "lng": -63.1732515,
-    "locationUrl": "https://maps.app.goo.gl/AgB2d5npTn4tiF5f6?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/AgB2d5npTn4tiF5f6?g_st=ic",
+    "historicalFocus": "Sobrepintado y pérdida de legibilidad",
+    "historicalComparison": "En diciembre de 2014, la inscripción vinculada a la compra de papel y materiales similares todavía era legible. En la parte superior aparecían «Kimberly» y un logotipo; en la imagen actual, muy desgastada, se alcanza a interpretar «Reciclemos». La diferencia indica que hubo cambios de rotulación además del deterioro, aunque la lectura exacta del texto actual es incierta.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 16,
@@ -287,8 +357,8 @@ const pieces = [
     "title": "Baño y ducha",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014 ya existía el alojamiento y se anunciaba el servicio de baño y ducha, pero mediante un aviso de papel escrito a mano y colocado en la puerta. El gran rótulo «Baño y ducha» de la fotografía de 2026 aún no estaba presente. El servicio continúa reconocible, mientras cambia el medio utilizado para comunicarlo.",
     "image": "images/la-ciudad-habla-imagenes-web/15.webp",
     "mapsUrl": "https://maps.app.goo.gl/mC7RqBYmK2HyCuTA9",
     "historicalUrl": "https://maps.app.goo.gl/mC7RqBYmK2HyCuTA9",
@@ -297,7 +367,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7809183,
     "lng": -63.1732515,
-    "locationUrl": "https://maps.app.goo.gl/AgB2d5npTn4tiF5f6?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/AgB2d5npTn4tiF5f6?g_st=ic",
+    "historicalFocus": "Cambio de soporte comunicativo",
+    "historicalComparison": "En diciembre de 2014 ya existía el alojamiento y se anunciaba el servicio de baño y ducha, pero mediante un aviso de papel escrito a mano y colocado en la puerta. El gran rótulo «Baño y ducha» de la fotografía de 2026 aún no estaba presente. El servicio continúa reconocible, mientras cambia el medio utilizado para comunicarlo.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 17,
@@ -305,8 +380,8 @@ const pieces = [
     "title": "Aboflor",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014, la florería se anunciaba mediante un letrero impreso digitalmente; no se distingue una inscripción pintada en su propia fachada. Sí aparecía rotulación en un negocio contiguo, que ya no se observa en la fotografía de 2026.",
     "image": "images/la-ciudad-habla-imagenes-web/16.webp",
     "mapsUrl": "https://maps.app.goo.gl/FP2F59t6ESrRnsfK7",
     "historicalUrl": "https://maps.app.goo.gl/FP2F59t6ESrRnsfK7",
@@ -315,7 +390,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7820283,
     "lng": -63.1731811,
-    "locationUrl": "https://maps.app.goo.gl/dgcb4Td7Gi5XoYAD8?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/dgcb4Td7Gi5XoYAD8?g_st=ic",
+    "historicalFocus": "De letrero impreso a rotulación",
+    "historicalComparison": "En diciembre de 2014, la florería se anunciaba mediante un letrero impreso digitalmente; no se distingue una inscripción pintada en su propia fachada. Sí aparecía rotulación en un negocio contiguo, que ya no se observa en la fotografía de 2026.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 18,
@@ -324,7 +404,7 @@ const pieces = [
     "route": 2,
     "address": "401 Bolívar",
     "historicalDate": "Diciembre de 2014",
-    "observation": "La función comunicativa jurídica es reconocible en ambos registros.",
+    "observation": "En diciembre de 2014, el estudio jurídico y su fachada ya eran muy similares a los actuales, aunque no se observaba la inscripción vertical «Abogado» sobre uno de los pilares. Las letras existentes se veían en mejor estado de conservación que en 2026.",
     "image": "images/la-ciudad-habla-imagenes-web/17.webp",
     "mapsUrl": "https://maps.app.goo.gl/NNNcu8p1y5znbznc7",
     "historicalUrl": "https://maps.app.goo.gl/NNNcu8p1y5znbznc7",
@@ -333,7 +413,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7823964,
     "lng": -63.177128,
-    "locationUrl": "https://maps.app.goo.gl/2dBkceg7QHmffYVb7?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/2dBkceg7QHmffYVb7?g_st=ic",
+    "historicalFocus": "Continuidad y texto añadido",
+    "historicalComparison": "En diciembre de 2014, el estudio jurídico y su fachada ya eran muy similares a los actuales, aunque no se observaba la inscripción vertical «Abogado» sobre uno de los pilares. Las letras existentes se veían en mejor estado de conservación que en 2026.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 19,
@@ -342,7 +427,7 @@ const pieces = [
     "route": 2,
     "address": "125 calle Quijarro",
     "historicalDate": "Diciembre de 2014",
-    "observation": "La inscripción comercial permanece; cambian algunos elementos de la fachada.",
+    "observation": "La inscripción «Vegetariano Su Salud» es muy similar en diciembre de 2014 y en 2026, lo que muestra continuidad en este recurso de comunicación. La fachada, anteriormente blanca, presenta ahora la mitad inferior verde. Las letras se ven bien conservadas; es posible que hayan recibido mantenimiento, aunque las imágenes no permiten asegurarlo.",
     "image": "images/la-ciudad-habla-imagenes-web/18.webp",
     "mapsUrl": "https://maps.app.goo.gl/MLXxvtisqeAjamoy7",
     "historicalUrl": "https://maps.app.goo.gl/MLXxvtisqeAjamoy7",
@@ -351,7 +436,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7821544,
     "lng": -63.1774032,
-    "locationUrl": "https://maps.app.goo.gl/L67m2aRJeZfiwVJN6?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/L67m2aRJeZfiwVJN6?g_st=ic",
+    "historicalFocus": "Continuidad con repintado",
+    "historicalComparison": "La inscripción «Vegetariano Su Salud» es muy similar en diciembre de 2014 y en 2026, lo que muestra continuidad en este recurso de comunicación. La fachada, anteriormente blanca, presenta ahora la mitad inferior verde. Las letras se ven bien conservadas; es posible que hayan recibido mantenimiento, aunque las imágenes no permiten asegurarlo.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 20,
@@ -359,8 +449,8 @@ const pieces = [
     "title": "Snack Virgen de Cotoca",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014 el local se anunciaba como «Snack Lumu» y su rotulación superior incluía la marca Coca-Cola. En 2026 aparece como «Snack Virgen de Cotoca». También cambió notablemente el entorno visual, con mayor presencia de murales y grafitis en la fachada y alrededores.",
     "image": "images/la-ciudad-habla-imagenes-web/19.webp",
     "mapsUrl": "https://maps.app.goo.gl/UEcaYdRFSusjN5jw9",
     "historicalUrl": "https://maps.app.goo.gl/UEcaYdRFSusjN5jw9",
@@ -369,7 +459,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7824734,
     "lng": -63.1783289,
-    "locationUrl": "https://maps.app.goo.gl/qQ4FJGbwwqCgTTr47?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/qQ4FJGbwwqCgTTr47?g_st=ic",
+    "historicalFocus": "Cambio de nombre y entorno gráfico",
+    "historicalComparison": "En diciembre de 2014 el local se anunciaba como «Snack Lumu» y su rotulación superior incluía la marca Coca-Cola. En 2026 aparece como «Snack Virgen de Cotoca». También cambió notablemente el entorno visual, con mayor presencia de murales y grafitis en la fachada y alrededores.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 21,
@@ -377,8 +472,8 @@ const pieces = [
     "title": "Venta de ocasión / Parqueo",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014 ya funcionaba aquí un estacionamiento, pero no se observaba el aviso «Venta de ocasión» de la fotografía actual. En el portón se leía «Estacionamiento», texto hoy difícil de reconocer por el desgaste y la oscuridad de la toma. Otro rótulo parece decir «11 Pasaje de la Biblia», lectura que requiere cautela.",
     "image": "images/la-ciudad-habla-imagenes-web/20.webp",
     "mapsUrl": "https://maps.app.goo.gl/8QZp1tXufZstyPvS9",
     "historicalUrl": "https://maps.app.goo.gl/8QZp1tXufZstyPvS9",
@@ -387,7 +482,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7825216,
     "lng": -63.1788104,
-    "locationUrl": "https://maps.app.goo.gl/kwTytVnMC8T1rsqU9?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/kwTytVnMC8T1rsqU9?g_st=ic",
+    "historicalFocus": "Inscripción agregada y rastros anteriores",
+    "historicalComparison": "En diciembre de 2014 ya funcionaba aquí un estacionamiento, pero no se observaba el aviso «Venta de ocasión» de la fotografía actual. En el portón se leía «Estacionamiento», texto hoy difícil de reconocer por el desgaste y la oscuridad de la toma. Otro rótulo parece decir «11 Pasaje de la Biblia», lectura que requiere cautela.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 22,
@@ -395,8 +495,8 @@ const pieces = [
     "title": "Café y Chisme",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014, la pared donde hoy se anuncia «Café y Chisme» no tenía ese rótulo. La fachada histórica también presentaba una franja café en su parte inferior que no aparece en la imagen de 2026.",
     "image": "images/la-ciudad-habla-imagenes-web/21.webp",
     "mapsUrl": "https://maps.app.goo.gl/uMpiFh7wKBy45TxX6",
     "historicalUrl": "https://maps.app.goo.gl/uMpiFh7wKBy45TxX6",
@@ -405,7 +505,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7823645,
     "lng": -63.1795443,
-    "locationUrl": "https://maps.app.goo.gl/vTWLR8F2k7PVzefa6?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/vTWLR8F2k7PVzefa6?g_st=ic",
+    "historicalFocus": "Aparición de un rótulo",
+    "historicalComparison": "En diciembre de 2014, la pared donde hoy se anuncia «Café y Chisme» no tenía ese rótulo. La fachada histórica también presentaba una franja café en su parte inferior que no aparece en la imagen de 2026.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 23,
@@ -413,8 +518,8 @@ const pieces = [
     "title": "Parqueo / Contratos",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "En diciembre de 2014 ya se observaban vehículos estacionados en el lugar, pero no había rótulos de parqueo público ni anuncios de contratos semanales o mensuales. Un letrero pequeño, aparentemente impreso, indicaba un uso exclusivo para clientes de la tienda. El mensaje de 2026 comunica una modalidad de estacionamiento diferente.",
     "image": "images/la-ciudad-habla-imagenes-web/22.webp",
     "mapsUrl": "https://maps.app.goo.gl/WiJQNVNqRWaKCCDm8",
     "historicalUrl": "https://maps.app.goo.gl/WiJQNVNqRWaKCCDm8",
@@ -423,7 +528,12 @@ const pieces = [
     "notes": "",
     "lat": -17.782269,
     "lng": -63.1849885,
-    "locationUrl": "https://maps.app.goo.gl/DemYpaHKhr8Q18bt5?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/DemYpaHKhr8Q18bt5?g_st=ic",
+    "historicalFocus": "Cambio en el uso anunciado",
+    "historicalComparison": "En diciembre de 2014 ya se observaban vehículos estacionados en el lugar, pero no había rótulos de parqueo público ni anuncios de contratos semanales o mensuales. Un letrero pequeño, aparentemente impreso, indicaba un uso exclusivo para clientes de la tienda. El mensaje de 2026 comunica una modalidad de estacionamiento diferente.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 24,
@@ -431,8 +541,8 @@ const pieces = [
     "title": "Ferretería Bazar Hércules",
     "route": 2,
     "address": "",
-    "historicalDate": "",
-    "observation": "",
+    "historicalDate": "Diciembre de 2014",
+    "observation": "La fachada de diciembre de 2014 ya tenía puertas y frente verdes, muy similares a los actuales, pero no presentaba las letras blancas «Ferretería Bazar Hércules». El registro de 2026 muestra la incorporación de esa identificación pintada sobre el mismo soporte.",
     "image": "images/la-ciudad-habla-imagenes-web/23.webp",
     "mapsUrl": "https://maps.app.goo.gl/3RtisEhN4X4YvLGm8",
     "historicalUrl": "https://maps.app.goo.gl/3RtisEhN4X4YvLGm8",
@@ -441,7 +551,12 @@ const pieces = [
     "notes": "",
     "lat": -17.7819188,
     "lng": -63.1850455,
-    "locationUrl": "https://maps.app.goo.gl/19SDcuVBuyUtgC9s9?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/19SDcuVBuyUtgC9s9?g_st=ic",
+    "historicalFocus": "Aparición de identidad comercial",
+    "historicalComparison": "La fachada de diciembre de 2014 ya tenía puertas y frente verdes, muy similares a los actuales, pero no presentaba las letras blancas «Ferretería Bazar Hércules». El registro de 2026 muestra la incorporación de esa identificación pintada sobre el mismo soporte.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalDateSource": "author-street-view-observation",
+    "historicalLinkStatus": "historical-date-reported-by-author"
   },
   {
     "id": 25,
@@ -450,7 +565,7 @@ const pieces = [
     "route": 2,
     "address": "214 Buenos Aires",
     "historicalDate": "Diciembre de 2014",
-    "observation": "El nombre y los elementos decorativos aparecen en ambos registros.",
+    "observation": "En diciembre de 2014, Cotillón Frutillita ya utilizaba letras pintadas en la fachada para anunciarse. El frente tenía una zona superior blanca y una parte inferior de tono anaranjado cremoso; en 2026 se ve completamente blanco, con letras rojas y un grado mayor de desgaste.",
     "image": "images/la-ciudad-habla-imagenes-web/24.webp",
     "mapsUrl": "https://maps.app.goo.gl/B3kUTaqkcW6RNsT56",
     "historicalUrl": "https://maps.app.goo.gl/B3kUTaqkcW6RNsT56",
@@ -461,8 +576,9 @@ const pieces = [
     "lng": -63.1843213,
     "locationUrl": "https://maps.app.goo.gl/xwH7rNEiNYYxeYGFA?g_st=ic",
     "historicalLinkStatus": "verified-by-author",
-    "historicalPilot": true,
-    "historicalComparison": "El nombre comercial y elementos decorativos se reconocen tanto en el registro de diciembre de 2014 como en la fotografía de 2026. Esta coincidencia visual no demuestra que hayan permanecido sin cambios durante todo el intervalo.",
-    "historicalComparisonStatus": "provisional-awaiting-visual-review"
+    "historicalComparison": "En diciembre de 2014, Cotillón Frutillita ya utilizaba letras pintadas en la fachada para anunciarse. El frente tenía una zona superior blanca y una parte inferior de tono anaranjado cremoso; en 2026 se ve completamente blanco, con letras rojas y un grado mayor de desgaste.",
+    "historicalComparisonStatus": "comparison-described-by-author",
+    "historicalFocus": "Continuidad con cambio de color",
+    "historicalDateSource": "author-street-view-observation"
   }
 ];
