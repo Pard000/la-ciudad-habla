@@ -38,3 +38,43 @@
   padding:3px 6px;
 }
 .geo-route-map .route-end-label::before{border-top-color:#171918}
+
+
+/* Fotografía geolocalizada: marcadores centrados exactamente en las coordenadas. */
+.geo-route-map .photo-map-pin{border:none;background:transparent;display:flex;align-items:center;justify-content:center}
+.geo-route-map .photo-map-pin span{
+  display:flex;align-items:center;justify-content:center;
+  width:100%;height:34px;border:2px solid #fffdf7;border-radius:999px;
+  box-shadow:0 2px 8px rgba(12,17,14,.55),0 0 0 1px rgba(23,25,24,.3);
+  color:#fff;background:#79501f;
+  font:700 12px/1 'IBM Plex Mono',monospace;
+  text-shadow:0 1px 1px rgba(0,0,0,.35);
+  transition:box-shadow .15s ease,filter .15s ease;
+}
+.geo-route-map .photo-map-pin-r1 span{background:#9a5a17}
+.geo-route-map .photo-map-pin-r2 span{background:#b62334}
+.geo-route-map .photo-map-pin:hover span,.geo-route-map .photo-map-pin:focus span{box-shadow:0 3px 12px #0009,0 0 0 3px #fff;filter:brightness(1.12)}
+.geo-route-map .photo-map-pin-multi span{font-size:11px;background:#b62334}
+.geo-route-map .leaflet-popup-content-wrapper{border-radius:6px;background:#f1eee7;box-shadow:0 8px 30px #0006}
+.geo-route-map .leaflet-popup-content{margin:12px 15px;max-height:min(52vh,460px);overflow-y:auto}
+.geo-route-map .leaflet-popup-tip{background:#f1eee7}
+.geo-route-map .photo-map-popup{font-family:'IBM Plex Sans',Arial,sans-serif;min-width:235px}
+.geo-route-map .photo-map-popup-head{font:600 10px 'IBM Plex Mono',monospace;color:#646963;letter-spacing:.07em;margin:0 0 9px}
+.geo-route-map .photo-map-entry{display:grid;grid-template-columns:86px minmax(0,1fr);gap:10px;align-items:start;border-top:1px solid #bbb9b0;padding:12px 0}
+.geo-route-map .photo-map-thumb{width:86px;height:104px;object-fit:contain;background:#d4d0c4}
+.geo-route-map .photo-map-meta{display:flex;flex-direction:column;gap:8px;min-width:0}
+.geo-route-map .photo-map-meta strong{font:600 19px/1.06 'Archivo Narrow',Arial,sans-serif;overflow-wrap:anywhere}
+.geo-route-map .photo-map-route{font:10px 'IBM Plex Mono',monospace;color:#666b66}
+.geo-route-map .photo-map-open{border:0;background:#171918;color:#fffdf7;font:11px 'IBM Plex Sans',Arial,sans-serif;padding:9px;text-align:center;cursor:pointer}
+.geo-route-map .photo-map-open:hover,.geo-route-map .photo-map-open:focus-visible{background:#397f7d}
+.geo-route-map .photo-map-actions{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px 14px}
+.geo-route-map .photo-map-actions a{color:#245f5d;font-size:11px;text-underline-offset:2px}
+.route-stop-actions{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0}
+.route-stop-actions a{text-align:right}
+@media(max-width:580px){
+  .geo-route-map .leaflet-popup-content{max-height:42vh}
+  .geo-route-map .photo-map-entry{grid-template-columns:75px minmax(0,1fr)}
+  .geo-route-map .photo-map-thumb{width:75px;height:95px}
+  .route-stop{gap:6px}
+  .route-stop-actions a{font-size:10px}
+}
