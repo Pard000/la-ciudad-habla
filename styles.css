@@ -78,3 +78,10 @@
   .route-stop{gap:6px}
   .route-stop-actions a{font-size:10px}
 }
+
+/* Archivo temporal piloto: jerarquía editorial discreta, sin alterar la galería ni el mapa. */
+.history.history-pilot{border-left:3px solid var(--teal);padding-left:17px}
+.history-pilot-status{font:600 10px/1.5 'IBM Plex Mono',monospace;letter-spacing:.055em;color:#245f5d;text-transform:uppercase;margin:12px 0 8px}
+.history.history-pilot #detail-history{font:600 15px/1.5 'IBM Plex Sans',Arial,sans-serif}
+.history-comparison-note{font:11px/1.6 'IBM Plex Sans',Arial,sans-serif;color:#666b66;margin:8px 0 14px}
+.history-pilot-status[hidden],.history-comparison-note[hidden]{display:none}
