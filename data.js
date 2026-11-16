@@ -181,7 +181,8 @@ const pieces = [
     "notes": "",
     "lat": -17.781712,
     "lng": -63.181395,
-    "locationUrl": "https://maps.app.goo.gl/sdWgAwrMzvdFKDFH6"
+    "locationUrl": "https://maps.app.goo.gl/sdWgAwrMzvdFKDFH6",
+    "historicalLinkStatus": "verified-by-author"
   },
   {
     "id": 11,
@@ -253,7 +254,8 @@ const pieces = [
     "notes": "",
     "lat": -17.7813694,
     "lng": -63.1771887,
-    "locationUrl": "https://maps.app.goo.gl/6h9rspApQAnygmsy9?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/6h9rspApQAnygmsy9?g_st=ic",
+    "historicalLinkStatus": "pending-author-check"
   },
   {
     "id": 15,
@@ -451,6 +453,7 @@ const pieces = [
     "notes": "",
     "lat": -17.7809221,
     "lng": -63.1843213,
-    "locationUrl": "https://maps.app.goo.gl/xwH7rNEiNYYxeYGFA?g_st=ic"
+    "locationUrl": "https://maps.app.goo.gl/xwH7rNEiNYYxeYGFA?g_st=ic",
+    "historicalLinkStatus": "pending-author-check"
   }
 ];
