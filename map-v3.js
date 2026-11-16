@@ -110,8 +110,8 @@
       className:'photo-map-pin photo-map-pin-r'+p.route+(multi?' photo-map-pin-multi':''),
       html:'<span>'+label+'</span>',
       iconSize:[size,36],
-      iconAnchor:[size/2,36],
-      popupAnchor:[0,-34]
+      iconAnchor:[size/2,18],
+      popupAnchor:[0,-22]
     });
     const marker=L.marker([p.lat,p.lng],{
       icon,
