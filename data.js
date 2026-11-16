@@ -182,7 +182,10 @@ const pieces = [
     "lat": -17.781712,
     "lng": -63.181395,
     "locationUrl": "https://maps.app.goo.gl/sdWgAwrMzvdFKDFH6",
-    "historicalLinkStatus": "verified-by-author"
+    "historicalLinkStatus": "verified-by-author",
+    "historicalPilot": true,
+    "historicalComparison": "En el registro de enero de 2015 no se identifica la rotulación amarilla visible en la fotografía de 2026. La comparación documenta una diferencia entre dos momentos, sin establecer cuándo se incorporó el mensaje.",
+    "historicalComparisonStatus": "provisional-awaiting-visual-review"
   },
   {
     "id": 11,
@@ -255,7 +258,10 @@ const pieces = [
     "lat": -17.7813694,
     "lng": -63.1771887,
     "locationUrl": "https://maps.app.goo.gl/6h9rspApQAnygmsy9?g_st=ic",
-    "historicalLinkStatus": "pending-author-check"
+    "historicalLinkStatus": "verified-by-author",
+    "historicalPilot": true,
+    "historicalComparison": "La inscripción roja fotografiada en 2026 no se identifica en el registro de enero de 2015. No es posible determinar a partir de estas dos imágenes la fecha exacta de su aparición.",
+    "historicalComparisonStatus": "provisional-awaiting-visual-review"
   },
   {
     "id": 15,
@@ -454,6 +460,9 @@ const pieces = [
     "lat": -17.7809221,
     "lng": -63.1843213,
     "locationUrl": "https://maps.app.goo.gl/xwH7rNEiNYYxeYGFA?g_st=ic",
-    "historicalLinkStatus": "pending-author-check"
+    "historicalLinkStatus": "verified-by-author",
+    "historicalPilot": true,
+    "historicalComparison": "El nombre comercial y elementos decorativos se reconocen tanto en el registro de diciembre de 2014 como en la fotografía de 2026. Esta coincidencia visual no demuestra que hayan permanecido sin cambios durante todo el intervalo.",
+    "historicalComparisonStatus": "provisional-awaiting-visual-review"
   }
 ];
