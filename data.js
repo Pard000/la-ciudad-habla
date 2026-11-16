@@ -1,6 +1,7 @@
-// Orden oficial de visita facilitado por el autor. `originalIndex` conserva la correspondencia con el archivo fotográfico ya subido.
-// Los enlaces compartidos por el autor apuntan a Street View, con intención de consulta histórica. No suponen coordenadas verificadas ni garantizan que Google mantenga una fecha concreta al abrirlos.
-// Conservamos mapsUrl por compatibilidad y historicalUrl como campo documental; futuras coordenadas geográficas se guardarán por separado.
+// Orden oficial de visita del autor. `originalIndex` conserva correspondencia con archivos originales.
+// `lat`/`lng` y `locationUrl`: ubicación contemporánea aportada por el autor (noviembre de 2026).
+// `historicalUrl` y `mapsUrl`: enlaces históricos de Street View, separados y preservados.
+// Dos fotos pueden compartir coordenadas y se presentan en un mismo marcador, sin desplazarlas artificialmente.
 const pieces = [
   {
     "id": 1,
@@ -15,7 +16,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/ctJX3e4dDhSStMsP7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.787565,
+    "lng": -63.185102,
+    "locationUrl": "https://maps.app.goo.gl/3kjg12775X42Wicr5"
   },
   {
     "id": 2,
@@ -30,7 +34,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/ikVArKC3m9xYAJWJA",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.787468,
+    "lng": -63.186086,
+    "locationUrl": "https://maps.app.goo.gl/GsPPvetkv6NoZVPy9"
   },
   {
     "id": 3,
@@ -45,7 +52,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/ziqve2P9ar3FN28q7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7878,
+    "lng": -63.1866,
+    "locationUrl": "https://maps.app.goo.gl/ZDGSjW6CRGtiiZjW9"
   },
   {
     "id": 4,
@@ -60,7 +70,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/gT9oLxrFnKkNyqsHA",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.786571,
+    "lng": -63.187065,
+    "locationUrl": "https://maps.app.goo.gl/qYv36fhV3KaxiEMG6"
   },
   {
     "id": 5,
@@ -75,7 +88,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/JMYv8sNpWefMpkq49",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.786011,
+    "lng": -63.184051,
+    "locationUrl": "https://maps.app.goo.gl/XjBDpnoTscG6nDuy8"
   },
   {
     "id": 6,
@@ -90,7 +106,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/Em3iovTMUueYG5pu6",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.785896,
+    "lng": -63.183078,
+    "locationUrl": "https://maps.app.goo.gl/pSC9GULGwNYrD59q7"
   },
   {
     "id": 7,
@@ -105,7 +124,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.787329,
+    "lng": -63.184094,
+    "locationUrl": "https://maps.app.goo.gl/zYPRGYQi6qfHvCxt7"
   },
   {
     "id": 8,
@@ -120,7 +142,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/SLBCGbvX1TrQ9THZ7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.787343,
+    "lng": -63.184222,
+    "locationUrl": "https://maps.app.goo.gl/xNBo8ET8bKgpuj9e6"
   },
   {
     "id": 9,
@@ -135,7 +160,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/PBTfGWMBWpBNZQQa6",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.781744,
+    "lng": -63.182052,
+    "locationUrl": "https://maps.app.goo.gl/h5CxABrwyDJKr5Xp6"
   },
   {
     "id": 10,
@@ -150,7 +178,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/uXqcAw5xaCgicss5A",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.781712,
+    "lng": -63.181395,
+    "locationUrl": "https://maps.app.goo.gl/sdWgAwrMzvdFKDFH6"
   },
   {
     "id": 11,
@@ -165,7 +196,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/As6KBCxuam8iJ7mz7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7816136,
+    "lng": -63.1801213,
+    "locationUrl": "https://maps.app.goo.gl/WaY4tDqqT3jESrGj9?g_st=ic"
   },
   {
     "id": 12,
@@ -180,7 +214,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/tPQMbYJpXCbfwpAo9",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7814923,
+    "lng": -63.1788154,
+    "locationUrl": "https://maps.app.goo.gl/t2sP2wpzeafJmZHA6?g_st=ic"
   },
   {
     "id": 13,
@@ -195,7 +232,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/ALq7cg7qurUkaeHt6",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7814265,
+    "lng": -63.1778753,
+    "locationUrl": "https://maps.app.goo.gl/bqpAQrKitNjHNctNA?g_st=ic"
   },
   {
     "id": 14,
@@ -210,7 +250,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/7NJTF1jQtDCfp6958",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7813694,
+    "lng": -63.1771887,
+    "locationUrl": "https://maps.app.goo.gl/6h9rspApQAnygmsy9?g_st=ic"
   },
   {
     "id": 15,
@@ -225,7 +268,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/JCX8XTTpbDKbuv4k7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7809183,
+    "lng": -63.1732515,
+    "locationUrl": "https://maps.app.goo.gl/AgB2d5npTn4tiF5f6?g_st=ic"
   },
   {
     "id": 16,
@@ -240,7 +286,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/mC7RqBYmK2HyCuTA9",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7809183,
+    "lng": -63.1732515,
+    "locationUrl": "https://maps.app.goo.gl/AgB2d5npTn4tiF5f6?g_st=ic"
   },
   {
     "id": 17,
@@ -255,7 +304,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/FP2F59t6ESrRnsfK7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7820283,
+    "lng": -63.1731811,
+    "locationUrl": "https://maps.app.goo.gl/dgcb4Td7Gi5XoYAD8?g_st=ic"
   },
   {
     "id": 18,
@@ -270,7 +322,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/NNNcu8p1y5znbznc7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7823964,
+    "lng": -63.177128,
+    "locationUrl": "https://maps.app.goo.gl/2dBkceg7QHmffYVb7?g_st=ic"
   },
   {
     "id": 19,
@@ -285,7 +340,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/MLXxvtisqeAjamoy7",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7821544,
+    "lng": -63.1774032,
+    "locationUrl": "https://maps.app.goo.gl/L67m2aRJeZfiwVJN6?g_st=ic"
   },
   {
     "id": 20,
@@ -300,7 +358,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/UEcaYdRFSusjN5jw9",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7824734,
+    "lng": -63.1783289,
+    "locationUrl": "https://maps.app.goo.gl/qQ4FJGbwwqCgTTr47?g_st=ic"
   },
   {
     "id": 21,
@@ -315,7 +376,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/8QZp1tXufZstyPvS9",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7825216,
+    "lng": -63.1788104,
+    "locationUrl": "https://maps.app.goo.gl/kwTytVnMC8T1rsqU9?g_st=ic"
   },
   {
     "id": 22,
@@ -330,7 +394,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/uMpiFh7wKBy45TxX6",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7823645,
+    "lng": -63.1795443,
+    "locationUrl": "https://maps.app.goo.gl/vTWLR8F2k7PVzefa6?g_st=ic"
   },
   {
     "id": 23,
@@ -345,7 +412,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/WiJQNVNqRWaKCCDm8",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.782269,
+    "lng": -63.1849885,
+    "locationUrl": "https://maps.app.goo.gl/DemYpaHKhr8Q18bt5?g_st=ic"
   },
   {
     "id": 24,
@@ -360,7 +430,10 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/3RtisEhN4X4YvLGm8",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7819188,
+    "lng": -63.1850455,
+    "locationUrl": "https://maps.app.goo.gl/19SDcuVBuyUtgC9s9?g_st=ic"
   },
   {
     "id": 25,
@@ -375,6 +448,9 @@ const pieces = [
     "historicalUrl": "https://maps.app.goo.gl/B3kUTaqkcW6RNsT56",
     "date": "2026",
     "transcription": "",
-    "notes": ""
+    "notes": "",
+    "lat": -17.7809221,
+    "lng": -63.1843213,
+    "locationUrl": "https://maps.app.goo.gl/xwH7rNEiNYYxeYGFA?g_st=ic"
   }
 ];
